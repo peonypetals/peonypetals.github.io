@@ -30,9 +30,9 @@ body {
 		
 	}
 	p.space-filler {
-		font-size:15px;
-		margin-right=10px;
-		margin-left=10px
+		font-size:10px;
+		margin-right:10px;
+		margin-left:10px;
 		color: aliceblue;
 		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	}
