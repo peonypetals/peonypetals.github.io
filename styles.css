@@ -6,20 +6,33 @@ body {
 	
 }
 
-.top-title {
-	text-align: center;
+div {
+	background-color: cornflowerblue;
 }
 
-.pink-sqaures {
-	width:100%;
+ul.top-navigation {
+	list-style-type: none;
+	margin: 0px;
+	padding:50px;
+
+
 }
 
-.space-filler {
-	font-size: 1.5vw;
-	
+@media screen and (max-width:1080px) {
+	body {
+		background-color: darkkhaki;
+	}
+	p.space-filler {
+		font-size: 25px;
+		margin-left: 20px;
+		margin-right: 20px
+	}
+	img.pink-squares {
+		display:none;
+	}
 }
 
-/* Copy this code #1st copy */
+/* Copy this code #1stcopy */
 
 @media screen and (max-width:750px) {
 	body {
@@ -30,17 +43,47 @@ body {
 		
 	}
 	p.space-filler {
-		font-size:22px;
-		margin-right:20px;
-		margin-left:20px;
+		font-size:18px;
 		color: aliceblue;
-		font-family: 'Dancing Script', cursive;
+		margin-left:50px;
+		margin-right:50px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	}
 	img.pink-squares {
 		display:none;
+		
 	}
 	
 }
 /* end code */
 
+li.top-menu {
+	display:inline;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.top-title {
+	text-align: center;
+}
+
+.pink-sqaures {
+	max-width:100%;
+	height: auto;
+}
+
+.space-filler {
+	font-size: 18px;
+	margin-left: 300px;
+	margin-right: 300px;
+	
+}
+
+img.bottom-pink {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 
