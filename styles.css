@@ -36,6 +36,9 @@ body {
 		color: aliceblue;
 		font-family: 'Dancing Script', cursive;
 	}
+	img.pink-squares {
+		display:none;
+	}
 	
 }
 /* end code */
